@@ -1,4 +1,4 @@
-void FragmentationInput(char* input_dirname, char* output_dirname, Int_t files, Int_t A, Int_t P_beam)
+void QA(char* input_dirname, char* output_dirname, Int_t files, Int_t A, Int_t P_beam)
 {
 	TChain* fChain=new TChain("events");
     TChain* fChain_glauber=new TChain("events");
